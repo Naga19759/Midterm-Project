@@ -7,7 +7,7 @@ div.row {
 
 div.row::after {
     clear: both;
-    content: "eggg egg egge ggege eegegegeg ";
+    content: "after element";
     display: table;
 }
 

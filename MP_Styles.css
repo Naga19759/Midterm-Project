@@ -1,12 +1,10 @@
 /* html styles */
 
 html {
-  background: url(Forest_Background.jpeg) center center / cover no-repeat fixed;
+  background: url(Forest_Background.jpeg) / cover no-repeat fixed;
   height: 100%;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 12px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /* body styles */
@@ -14,13 +12,14 @@ html {
 body {
   background-color: rgb(2, 31, 16);
   font-family: Verdana, Geneva, Arial, sans-serif;
-  margin: 10%;
 }
 
 article {
   float: left;
   color: white;
   display: block;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 ul {
