@@ -1,25 +1,31 @@
 /* html styles */
 
 html {
-  background: url(Forest_Background.jpeg) / cover no-repeat fixed;
+  background-image: url(pexels-fauxels-3184454.jpg);
   height: 100%;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 12px;
 }
 
 /* body styles */
+header img{
+  width: 100%;
+  max-height: 4em;
+}
 
 body {
-  background-color: rgb(2, 31, 16);
   font-family: Verdana, Geneva, Arial, sans-serif;
 }
 
 article {
   float: left;
-  color: white;
+  color:rgb(255, 255, 255);
   display: block;
   margin-left: 5%;
   margin-right: 5%;
+  padding: auto;
+  background-color: rgb(24, 2, 49);
+  opacity: 45%;
 }
 
 ul {
